@@ -1,3 +1,13 @@
+## About this fork
+
+This is a fork of [rpardini/docker-registry-proxy](https://github.com/rpardini/docker-registry-proxy) with the following changes:
+
+- Added an option to disable IPv6 in the resolver - for networks with no support for IPv6
+- Merged [this PR](https://github.com/rpardini/docker-registry-proxy/pull/107) to enable caching by sha for blobs
+- Changed GH actions to publish to ghr only, under the livecycle namespace
+
+Following is the original README
+
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rpardini/docker-registry-proxy/master-latest?label=%3Alatest%20from%20master)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/rpardini/docker-registry-proxy?label=last%20tagged%20release)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rpardini/docker-registry-proxy/tags?label=last%20tagged%20release)
